@@ -5,8 +5,8 @@ certManager:
   serviceAccountName: cert-manager
 
 image:
-  repository: monostream/cert-manager-linode
-  tag: latest
+  repository: metallapan/cert-manager-linode
+  tag: 0.3.0
   pullPolicy: Always
 
 nameOverride: ""
